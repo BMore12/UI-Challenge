@@ -18,7 +18,7 @@ function App() {
           maxHeight: '320px',
           objectFit: 'cover',
           borderRadius: '16px',
-          marginBottom: '24px'
+          marginBottom: '24p'
         }}
       />
       <Header />
