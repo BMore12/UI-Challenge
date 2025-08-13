@@ -1,0 +1,27 @@
+.category-section {
+  background: #e6cfc2;
+  padding: 40px 0;
+  text-align: center;
+}
+.category-section h2 {
+  color: #4d4240;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.category-section p {
+  color: #4d4240;
+  margin-bottom: 32px;
+}
+.category-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .category-cards {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}

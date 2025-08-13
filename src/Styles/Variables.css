@@ -1,0 +1,11 @@
+import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap');
+
+:root{
+--primary-pink:#f5d5dc;
+--secondary-pink:#fce4ec;
+--accent-gold:#d4af37;
+--text-dark:#333;
+--font-heading: 'playfair-display', serif;
+--font-body: 'Open Sans', sans-serif;
+
+}

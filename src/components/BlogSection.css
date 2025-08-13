@@ -1,0 +1,27 @@
+.blog-section {
+  background: #e6cfc2;
+  padding: 40px 0;
+  text-align: center;
+}
+.blog-section h2 {
+  color: #4d4240;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.blog-section p {
+  color: #4d4240;
+  margin-bottom: 32px;
+}
+.blog-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .blog-cards {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}

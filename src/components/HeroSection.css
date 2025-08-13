@@ -1,0 +1,46 @@
+.hero-bg {
+  background-image: url('/images/coffee-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+.hero-content {
+  text-align: left;
+  margin-left: 60px;
+  color: #fff;
+}
+.hero-content h2 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #e6cfc2;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  color: #e6cfc2;
+  font-weight: bold;
+}
+.shop-btn {
+  background: #c19a6b;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background 0.2s;
+}
+.shop-btn:hover {
+  background: #4d4240;
+}
+@media (max-width: 768px) {
+  .hero-content {
+    margin-left: 16px;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}
